@@ -2,9 +2,9 @@
 
 Includes
 
-- [**Parcel**](/) application bundler
-- [**Babel**](/) next generation JavaScript (transpiler for module-system & flow)
-- [**Bootstrap 5**](/) CSS framework 
+- [**Parcel**](https://parceljs.org/getting_started.html/) application bundler
+- [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
+- [**Bootstrap 5**](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha//) CSS framework 
 
 ## Start Application
 ```bash
