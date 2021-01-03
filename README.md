@@ -24,5 +24,5 @@ build ---------- creates bundled webpack build
 
 ## Task Notes
 
-- [x] Display all the different street names from [**this**](https://raw. githubusercontent.com/zemirco/sf-city-lots-json/master/citylots.json) JSON
+- [x] Display all the different street names from [**this**](https://raw.githubusercontent.com/zemirco/sf-city-lots-json/master/citylots.json) JSON
 - [ ] Implement network requests queue with limit.
