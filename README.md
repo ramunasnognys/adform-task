@@ -2,21 +2,24 @@
 
 Includes
 
-- [**Parcel**](https://flow.org/) static typechecker for JavaScript
-- [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
-- [**Bootstrap 5**](https://facebook.github.io/jest/) for testing, mocking 
-- [**Prettier**](https://prettier.io/) opinionated code formatter
-- [**EsLint**](https://eslint.org/) eslint
-- [**Webpack**](https://webpack.js.org/) module bundler
+- [**Parcel**](/) application bundler
+- [**Babel**](/) next generation JavaScript (transpiler for module-system & flow)
+- [**Bootstrap 5**](/) CSS framework 
+
+## Start Application
+```bash
+git clone https://github.com/ramunasnognys/adform-task.git
+cd adform-task
+npm/yarn install
+```
 
 ## Scripts
-
 ```bash
 npm run / yarn
 dev ------------ run server with hot-reload (node-dev)
-nodemon -------- run server with hot-reload (nodemon)
 build ---------- creates bundled webpack build
-test ----------- runs tests with coverage reports
 ```
 
-## Sources & Notes
+## Task Notes
+1. Display all the different street names from [**this**](https://raw.githubusercontent.com/zemirco/sf-city-lots-json/master/citylots.json) JSON 
+2. Implement network requests queue with limit.
