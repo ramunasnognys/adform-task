@@ -19,7 +19,7 @@ npm/yarn install
 ```bash
 npm run / yarn
 dev ------------ run server with hot-reload (node-dev)
-build ---------- creates bundled webpack build
+build ---------- creates bundled parcel build
 ```
 
 ## Task Notes
