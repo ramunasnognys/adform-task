@@ -13,7 +13,7 @@ Includes
 ```bash
 git clone https://github.com/ramunasnognys/adform-task.git
 cd adform-task
-npm/yarn install
+npm / yarn install
 ```
 
 ## Scripts 
