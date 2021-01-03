@@ -12,7 +12,6 @@
 //   // functions will be executed in batches, never more than 3 at a time
 //   controlledGetFromApi(i)
 //     .then((result) => {
-//       console.log("Vuallla, Success!!!");
 //     })
 //     .catch((error) => {
 //       console.log(error);
