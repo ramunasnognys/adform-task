@@ -2,7 +2,7 @@
 
 You can view the demo aplication [**here**](https://adform-task.vercel.app/)
 
-Includes
+<b>Includes</b>
 
 - [**Parcel**](https://parceljs.org/getting_started.html/) application bundler
 - [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
