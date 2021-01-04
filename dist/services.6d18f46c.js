@@ -2330,7 +2330,7 @@ const controlledGetFromApi = makeControlled(_getAPIResponse.getResponse, {
 exports.controlledGetFromApi = controlledGetFromApi;
 let i = 100;
 
-while (i--) // functions will be executed in batches, never more than 3 at a time
+while (i--) // functions will be executed in batches, never more than 3 at a time.
 controlledGetFromApi(i).then(result => {
   console.log(result);
 }).catch(error => {
@@ -2382,7 +2382,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51952" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53135" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
