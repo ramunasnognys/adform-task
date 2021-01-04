@@ -1,6 +1,6 @@
 import { showSpinner } from "./util.js";
 import { getStreets } from "./getStreets.js";
-import { request, sendMessage } from "./requestChecker.js";
+import { controlledGetFromApi } from "./concurrencyController.js";
 
 const button = document.querySelector("#button");
 

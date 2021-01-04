@@ -1,6 +1,6 @@
 import { getResponse } from "./getAPIResponse.js";
-
 const streetsContainer = document.getElementById("api-container");
+
 let streets;
 
 export const getStreets = async () => {
@@ -8,7 +8,6 @@ export const getStreets = async () => {
     getResponse().then((res) => {
       streets = res.map((item) => item.properties);
       const duplicateStreetsArray = streets.map((item) => item.STREET);
-
       const uniqStreetsArray = [...new Set(duplicateStreetsArray)];
 
       uniqStreetsArray.forEach((str, i) => {
@@ -26,11 +25,6 @@ export const getStreets = async () => {
           itemStreet.innerText = str.toLowerCase().capitalize();
         }
       });
-
-      console.log(` THE LENGTH OF UNIQ values: ${uniqStreetsArray.length}`);
-      console.log(
-        ` THE LENGTH OF DUPLICATE values: ${duplicateStreetsArray.length}`
-      );
     });
   } catch (error) {
     console.log(error);
