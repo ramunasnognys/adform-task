@@ -9,7 +9,7 @@ export const controlledGetFromApi = makeControlled(getResponse, {
 
 let i = 100;
 while (i--)
-  // functions will be executed in batches, never more than 3 at a time
+  // functions will be executed in batches, never more than 3 at a time.
   controlledGetFromApi(i)
     .then((result) => {
       console.log(result);

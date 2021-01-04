@@ -2,8 +2,7 @@
 
 You can view the demo aplication [**here**](https://adform-task.vercel.app/)
 
-Includes
-
+<b>Includes:</b>
 - [**Parcel**](https://parceljs.org/getting_started.html/) application bundler
 - [**Babel**](https://babeljs.io/) next generation JavaScript (transpiler for module-system & flow)
 - [**Bootstrap 5**](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha//) CSS framework
@@ -13,7 +12,7 @@ Includes
 ```bash
 git clone https://github.com/ramunasnognys/adform-task.git
 cd adform-task
-npm/yarn install
+npm / yarn install
 ```
 
 ## Scripts 
